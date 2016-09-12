@@ -5,7 +5,7 @@ import { ApiRequest } from '../helpers/api-requests'
 @Component({
   selector: 'my-app',
   templateUrl: '/app/repository-search/repository-search.html',
-  styleUrls: ['/app/repository-search/repository-search.css']
+  styleUrls: ['app/repository-search/repository-search.css']
 })
 
 export class RepositorySearch {
