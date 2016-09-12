@@ -23,7 +23,6 @@ A starter project to learn the angular 2 ecosystem and provide a user repository
 ##Future Improvements
   * switch systemjs for webpack to manage modules
   * create a central folder to contain all transpiled ts
-  * Add a testing framework
+  * Add a testing framework, probably jasmine with karma
   
-  
-## License
+
