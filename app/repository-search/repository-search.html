@@ -1,0 +1,13 @@
+<h1>GitHub Search</h1>
+
+<input type="text" #username placeholder="Search Github Users">
+<button (click)="searchForUsersRepos(username.value)">Search Users</button>
+
+<h3>Repository list</h3>
+<div *ngIf="noResults"> No Repositories found</div>
+    <ul>
+	    <li *ngFor="let repo of repos">
+         <a href ={{repo.html_url}} > {{ repo.full_name }} </a>
+        </li>
+    </ul>
+
