@@ -13,6 +13,7 @@ A starter project to learn the angular 2 ecosystem and provide a user repository
       .map((res) => res.json());
   }
 ```
+This handles all the requests made to the github api.
 
 ##How to start
   * clone the repository
@@ -24,5 +25,6 @@ A starter project to learn the angular 2 ecosystem and provide a user repository
   * switch systemjs for webpack to manage modules
   * create a central folder to contain all transpiled ts
   * Add a testing framework, probably jasmine with karma
+  * Load the details of the repository into a new component on the page
   
 
